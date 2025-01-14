@@ -6,10 +6,10 @@
     <title>Study List</title>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
-<body class="bg-gray-900">
+<body class="bg-gray-600">
     <nav class="bg-gray-900 p-4 shadow-lg">
         <div class="container mx-auto flex justify-between items-center">
-            <a href="#" class="text-white text-2xl font-bold">Learning Media</a>
+            <a href="#" class="text-white text-2xl font-bold">คลังความรู้ของคน cool cool</a>
             <ul class="flex space-x-6">
                 <li><a href="Homepage.html" class="text-white hover:text-gray-200">หน้าแรก</a></li>
                 <li><a href="StudyList.html" class="text-white hover:text-gray-200">รายชื่อวิชา</a></li>
@@ -21,7 +21,6 @@
             <input type="text" id="search" placeholder="Search for a subject..." class="w-full p-2 border border-gray-300 rounded">
         </div>
         <div id="subject-list" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-            <!-- Example subject item -->
             <div class="bg-white p-4 rounded shadow">
                 <a href="MathStudyDetail.html">
                     <img src="subject-image.jpg" alt="Subject Image" class="w-full h-32 object-cover rounded mb-2">
@@ -29,14 +28,14 @@
                     <p class="text-gray-700">คณิตศาสตร์ (อังกฤษ: Mathematics) เป็นศาสตร์ที่ครอบคลุมการค้นคว้าเกี่ยวกับ ปริมาณ โครงสร้าง การเปลี่ยนแปลง และปริภูมิ คณิตศาสตร์ไม่มีคำนิยามที่เป็นที่ยอมรับกันทั่วไป กล่าวคร่าวๆ ได้ว่าคณิตศาสตร์นั้นสนใจ "รูปร่างและจำนวน" และเนื่องจากคณิตศาสตร์มิได้สร้างความรู้ผ่านกระบวนการทดลอง บางคนจึงไม่จัดว่าคณิตศาสตร์เป็นสาขาของวิทยาศาสตร์</p>
                 </a>
             </div></a>
-            <!-- Repeat similar blocks for other subjects -->
             <div class="bg-white p-4 rounded shadow">
+                 <a href="ThaiStudyDetail.html">
                 <img src="subject-image1.jpg" alt="Subject Image" class="w-full h-32 object-cover rounded mb-2">
                 <h2 class="text-xl font-bold mb-2">ภาษาไทย</h2>
                 <p class="text-gray-700">ภาษาไทยเป็นภาษาที่มีระดับเสียงของคำแน่นอนหรือวรรณยุกต์เช่นเดียวกับภาษาจีน และออกเสียงแยกคำต่อคำ
-
                     ภาษาไทยปรากฏครั้งแรกในพุทธศักราช 1826 โดยพ่อขุนรามคำแหง และปรากฏอย่างสากลและใช้ในงานของราชการ เมื่อวันที่ 31 มีนาคม พุทธศักราช 2476 ด้วยการก่อตั้งสำนักงานราชบัณฑิตยสภาขึ้น และปฏิรูปภาษาไทย พุทธศักราช 2485</p>
-            </div>
+             </a>
+                </div> 
             <div class="bg-white p-4 rounded shadow">
                 <img src="subject-image2.jpg" alt="Subject Image" class="w-full h-32 object-cover rounded mb-2">
                 <h2 class="text-xl font-bold mb-2">ภาษาอังกฤษ</h2>
@@ -72,7 +71,6 @@
         </div>
     </main>
     <script>
-        // JavaScript for search functionality
         document.getElementById('search').addEventListener('input', function() {
             const searchValue = this.value.toLowerCase();
             const subjects = document.querySelectorAll('#subject-list > div');
