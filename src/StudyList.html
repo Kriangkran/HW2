@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study List</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-900">
+    <nav class="bg-gray-900 p-4 shadow-lg">
+        <div class="container mx-auto flex justify-between items-center">
+            <a href="#" class="text-white text-2xl font-bold">Learning Media</a>
+            <ul class="flex space-x-6">
+                <li><a href="Homepage.html" class="text-white hover:text-gray-200">หน้าแรก</a></li>
+                <li><a href="StudyList.html" class="text-white hover:text-gray-200">รายชื่อวิชา</a></li>
+            </ul>
+        </div>
+    </nav>
+    <main class="p-4">
+        <div class="mb-4">
+            <input type="text" id="search" placeholder="Search for a subject..." class="w-full p-2 border border-gray-300 rounded">
+        </div>
+        <div id="subject-list" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+            <!-- Example subject item -->
+            <div class="bg-white p-4 rounded shadow">
+                <a href="MathStudyDetail.html">
+                    <img src="subject-image.jpg" alt="Subject Image" class="w-full h-32 object-cover rounded mb-2">
+                    <h2 class="text-xl font-bold mb-2">คณิตศาสตร์</h2>
+                    <p class="text-gray-700">คณิตศาสตร์ (อังกฤษ: Mathematics) เป็นศาสตร์ที่ครอบคลุมการค้นคว้าเกี่ยวกับ ปริมาณ โครงสร้าง การเปลี่ยนแปลง และปริภูมิ คณิตศาสตร์ไม่มีคำนิยามที่เป็นที่ยอมรับกันทั่วไป กล่าวคร่าวๆ ได้ว่าคณิตศาสตร์นั้นสนใจ "รูปร่างและจำนวน" และเนื่องจากคณิตศาสตร์มิได้สร้างความรู้ผ่านกระบวนการทดลอง บางคนจึงไม่จัดว่าคณิตศาสตร์เป็นสาขาของวิทยาศาสตร์</p>
+                </a>
+            </div></a>
+            <!-- Repeat similar blocks for other subjects -->
+            <div class="bg-white p-4 rounded shadow">
+                <img src="subject-image1.jpg" alt="Subject Image" class="w-full h-32 object-cover rounded mb-2">
+                <h2 class="text-xl font-bold mb-2">ภาษาไทย</h2>
+                <p class="text-gray-700">ภาษาไทยเป็นภาษาที่มีระดับเสียงของคำแน่นอนหรือวรรณยุกต์เช่นเดียวกับภาษาจีน และออกเสียงแยกคำต่อคำ
+
+                    ภาษาไทยปรากฏครั้งแรกในพุทธศักราช 1826 โดยพ่อขุนรามคำแหง และปรากฏอย่างสากลและใช้ในงานของราชการ เมื่อวันที่ 31 มีนาคม พุทธศักราช 2476 ด้วยการก่อตั้งสำนักงานราชบัณฑิตยสภาขึ้น และปฏิรูปภาษาไทย พุทธศักราช 2485</p>
+            </div>
+            <div class="bg-white p-4 rounded shadow">
+                <img src="subject-image2.jpg" alt="Subject Image" class="w-full h-32 object-cover rounded mb-2">
+                <h2 class="text-xl font-bold mb-2">ภาษาอังกฤษ</h2>
+                <p class="text-gray-700">ภาษาอังกฤษมักถูกเรียกว่าเป็น "ภาษาสากล" เพราะมีการพูดอย่างกว้างขวาง และแม้จะมิใช่ภาษาราชการในประเทศส่วนใหญ่ แต่ปัจจุบัน มีการสอนภาษาอังกฤษเป็นภาษาต่างประเทศมากที่สุด ตามสนธิสัญญาระหว่างประเทศ ภาษาอังกฤษเป็นภาษาราชการของการสื่อสารการบิน และในทะเล ภาษาอังกฤษเป็นภาษาราชการของสหประชาชาติและองค์การระหว่างประเทศอีกหลายแห่ง ซึ่งรวมถึงคณะกรรมการโอลิมปิกสากล</p>
+            </div>
+            <div class="bg-white p-4 rounded shadow">
+                <img src="subject-image3.jpg" alt="Subject Image" class="w-full h-32 object-cover rounded mb-2">
+                <h2 class="text-xl font-bold mb-2">ฟิสิกส์</h2>
+                <p class="text-gray-700">ฟิสิกส์เป็นความรู้พื้นฐานที่นำไปใช้ในการพัฒนาเทคโนโลยีเกี่ยวกับการผลิต และเครื่องใช้ต่าง ๆ เพื่ออำนวยความสะดวกแก่มนุษย์ ตัวอย่างเช่น การนำความรู้พื้นฐานทางด้านแม่เหล็กไฟฟ้า ไปใช้ในอุปกรณ์อิเล็กทรอนิกส์ต่าง ๆ (โทรทัศน์ วิทยุ คอมพิวเตอร์ โทรศัพท์มือถือ ฯลฯ) อย่างแพร่หลาย หรือ การนำความรู้ทางอุณหพลศาสตร์ไปใช้ในการพัฒนาเครื่องจักรกลและยานพาหนะ ยิ่งไปกว่านั้นความรู้ทางฟิสิกส์บางอย่างอาจนำไปสู่การสร้างเครื่องมือใหม่ที่ใช้ในวิทยาศาสตร์สาขาอื่น เช่น การนำความรู้เรื่องกลศาสตร์ควอนตัม ไปใช้ในการพัฒนากล้องจุลทรรศน์อิเล็กตรอนที่ใช้ในชีววิทยา เป็นต้น</p>
+            </div>
+            <div class="bg-white p-4 rounded shadow">
+                <img src="subject-image4.jpg" alt="Subject Image" class="w-full h-32 object-cover rounded mb-2">
+                <h2 class="text-xl font-bold mb-2">เคมี</h2>
+                <p class="text-gray-700">เคมี หรือ เคมีวิทยา (อังกฤษ: chemistry) เป็นวิทยาศาสตร์สาขาหนึ่งที่ศึกษาในเรื่องของสสาร โดยไม่เพียงแต่ศึกษาเฉพาะในเรื่องของปฏิกิริยาเคมี แต่ยังรวมถึงองค์ประกอบ โครงสร้างและคุณสมบัติของสสารอีกด้วย การศึกษาทางด้านเคมีเน้นไปที่อะตอมและปฏิสัมพันธ์ระหว่างอะตอมกับอะตอม และโดยเฉพาะอย่างยิ่งคุณสมบัติของพันธะเคมี</p>
+            </div>
+            <div class="bg-white p-4 rounded shadow">
+                <img src="subject-image5.jpg" alt="Subject Image" class="w-full h-32 object-cover rounded mb-2">
+                <h2 class="text-xl font-bold mb-2">ชีววิทยา</h2>
+                <p class="text-gray-700">ชีววิทยา (อังกฤษ: biology) เป็นการศึกษาเกี่ยวกับขนาดของสิ่งมีชีวิต เป็นแขนงหนึ่งของวิทยาศาสตร์ธรรมชาติ (natural science) ที่ศึกษาด้วยขอบเขตที่กว้างแต่ประกอบด้วยหลายประเด็นที่เชื่อมโยงเข้าด้วยกันเป็นอันหนึ่งอันเดียวกันและสอดคล้องกัน ตัวอย่างเช่น สิ่งมีชีวิตทุกชนิดเกิดขึ้นจากเซลล์หลายเซลล์ที่สามารถประมวลข้อมูลทางกรรมพันธุ์ที่เข้ารหัสในรูปยีน ซึ่งสามารถส่งต่อให้รุ่นถัดไป อีกประเด็นหลักคือวิวัฒนาการซึ่งอธิบายความเป็นเอกภาพและความหลากหลายของชีวิต กระบวนการเกี่ยวกับพลังงานยังมีความสำคัญต่อชีวิตเพื่อให้สิ่งมีชีวิตสามารถเคลื่อนที่ เจริญเติบโตและสืบพันธุ์ สุดท้ายนี้ สิ่งมีชีวิตทุกชนิดต้องสามารถรักษาดุลยภาพของสภาพแวดล้อมภายในของสิ่งมีชีวิตเอง</p>
+            </div>
+            <div class="bg-white p-4 rounded shadow">
+                <img src="subject-image6.jpg" alt="Subject Image" class="w-full h-32 object-cover rounded mb-2">
+                <h2 class="text-xl font-bold mb-2">วิทยาศาสตร์</h2>
+                <p class="text-gray-700">วิทยาศาสตร์ หมายถึง ความรู้เกี่ยวกับสิ่งต่าง ๆ ในธรรมชาติทั้งที่มีชีวิตและไม่มีชีวิต รวมทั้งกระบวนการประมวลความรู้เชิงประจักษ์ ที่เรียกว่ากระบวนการทางวิทยาศาสตร์ และกลุ่มขององค์ความรู้ที่ได้จากกระบวนการดังกล่าว
+                    การศึกษาในด้านวิทยาศาสตร์ยังถูกแบ่งย่อยออกเป็น วิทยาศาสตร์ธรรมชาติ และ วิทยาศาสตร์ประยุกต์ คำว่า science ในภาษาอังกฤษ ซึ่งแปลว่า วิทยาศาสตร์นั้น มาจากภาษาลาติน คำว่า scientia ซึ่งหมายความว่า ความรู้ ในคริสต์ศตวรรษที่ 17 ฟรานซิส เบคอนได้พยายามคิดค้นวิธีมาตรฐานในการอุปนัย เพื่อนำมาใช้สร้างทฤษฎีหรือกฎต่าง ๆ ทางวิทยาศาสตร์จากข้อมูลที่ทดลองหรือสังเกตได้จากธรรมชาติ เป็นผู้รื้อถอนและปรับปรุงแนวความคิดเกี่ยวกับวิทยาศาสตร์สมัยเก่า </p>
+            </div>
+            <div class="bg-white p-4 rounded shadow">
+                <img src="subject-image7.jpg" alt="Subject Image" class="w-full h-32 object-cover rounded mb-2">
+                <h2 class="text-xl font-bold mb-2">โลกและดาราศาสตร์</h2>
+                <p class="text-gray-700">ดาราศาสตร์ (อังกฤษ: Astronomy, กรีก: ἀστρονομία) คือวิชาในกลุ่มสาระวิทยาศาสตร์ที่ศึกษาเกี่ยวกับวัตถุท้องฟ้าหรือวัตถุทางดาราศาสตร์ (เช่น ดาวฤกษ์, ดาวเคราะห์, ดาวหาง, ดาราจักร) รวมทั้งปรากฏการณ์ทางธรรมชาติต่าง ๆ ที่เกิดขึ้นในเอกภพ โดยศึกษาเกี่ยวกับวิวัฒนาการ ลักษณะทางกายภาพ ทางเคมี ทางอุตุนิยมวิทยา และการเคลื่อนที่ของวัตถุท้องฟ้า ตลอดจนถึงการกำเนิดและวิวัฒนาการของเอกภพ</p>
+            </div>
+            
+        </div>
+    </main>
+    <script>
+        // JavaScript for search functionality
+        document.getElementById('search').addEventListener('input', function() {
+            const searchValue = this.value.toLowerCase();
+            const subjects = document.querySelectorAll('#subject-list > div');
+            subjects.forEach(subject => {
+                const subjectName = subject.querySelector('h2').textContent.toLowerCase();
+                if (subjectName.includes(searchValue)) {
+                    subject.style.display = '';
+                } else {
+                    subject.style.display = 'none';
+                }
+            });
+        });
+    </script>
+</body>
+</html>

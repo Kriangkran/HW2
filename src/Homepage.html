@@ -6,72 +6,91 @@
     <title>Online Learning</title>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
-<body class="bg-gray-100">
-     <nav class="bg-blue-500 p-4">
+<body class="bg-gray-900">
+    <nav class="bg-gray-900 p-4 shadow-lg">
         <div class="container mx-auto flex justify-between items-center">
-            <a href="#" class="text-white text-lg font-bold">Brand</a>
-            <ul class="flex space-x-4">
-                <li><a href="#" class="text-white">Home</a></li>
-                <li><a href="#" class="text-white">รายชื่อวิชาที่สอน</a></li>
-                <li><a href="#" class="text-white">รายละเอียดวิชา</a></li>
-                <li><a href="#" class="text-white">คำถาม/คำตอบ</a></li>
+            <a href="#" class="text-white text-2xl font-bold">Learning Media</a>
+            <ul class="flex space-x-6">
+                <li><a href="#" class="text-white hover:text-gray-200">หน้าแรก</a></li>
+                <li><a href="StudyList.html" class="text-white hover:text-gray-200">รายชื่อวิชา</a></li>
             </ul>
         </div>
     </nav>
 
-    <!-- Banner News Section -->
-    <section class="bg-yellow-300 p-4">
-        <div class="container mx-auto">
-            <h2 class="text-xl font-bold text-center">Latest News</h2>
-            <p class="text-center">Stay updated with the latest news and announcements.</p>
+    <section class="bg-cover bg-center h-64" style="background-image: url('https://source.unsplash.com/1600x900/?education,learning');">
+        <div class="bg-gray-400 bg-opacity-50 h-full flex items-center justify-center">
+            <div class="text-center text-white">
+                <h1 class="text-4xl font-bold">ยินดีต้อนรับสู่คลังแห่งการเรียนรู้</h1>
+                <p class="mt-2 text-lg">เชิญเลือกดูรายวิชาได้ที่สนใจได้เลย</p>
+            </div>
         </div>
     </section>
 
-    <!-- Courses List -->
-    <section class="container mx-auto mt-8">
-        <h2 class="text-2xl font-bold mb-4">รายชื่อวิชาที่สอน</h2>
+    <section class="bg-yellow-300 p-4">
+        <div class="container mx-auto">
+            <h2 class="text-xl font-bold text-center">ข่าวสารล่าสุด!!</h2>
+            <p class="text-center mb-4">อัปเดตข่าวสารและประกาศล่าสุดอยู่เสมอ</p>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+                <div class="bg-white p-4 rounded shadow">
+                    <img src="NEW1.png" alt="News Image" class="w-full h-48 object-cover rounded mb-4">
+                    <h3 class="text-lg font-bold mb-2">Course Update</h3>
+                </div>
+                <div class="bg-white p-4 rounded shadow">
+                    <img src="NEW2.png" alt="Update Image" class="w-full h-48 object-cover rounded mb-4">
+                    <h3 class="text-lg font-bold mb-2">New Features</h3>
+                </div>
+                <div class="bg-white p-4 rounded shadow">
+                    <img src="NEW3.png" alt="Announcement Image" class="w-full h-48 object-cover rounded mb-4">
+                    <h3 class="text-lg font-bold mb-2">Upcoming Events</h3>
+                </div>
+                <div class="bg-white p-4 rounded shadow">
+                    <img src="NEW4.png" alt="Update Image" class="w-full h-48 object-cover rounded mb-4">
+                    <h3 class="text-lg font-bold mb-2">New Features</h3>
+                </div>
+
+            </div>
+        </div>
+            
+        </div>
+    </section>
+
+    <section class="container mx-auto mt-8 ">
+        <h2 class="text-2xl font-bold mb-4 text-white">รายชื่อวิชา</h2>
         <ul class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-            <li class="bg-white p-4 shadow-md rounded-md">
-                <h3 class="text-xl font-semibold">Course 1</h3>
-                <p class="text-gray-700">Description of Course 1</p>
-            </li>
-            <li class="bg-white p-4 shadow-md rounded-md">
-                <h3 class="text-xl font-semibold">Course 2</h3>
-                <p class="text-gray-700">Description of Course 2</p>
-            </li>
-            <li class="bg-white p-4 shadow-md rounded-md">
-                <h3 class="text-xl font-semibold">Course 3</h3>
-                <p class="text-gray-700">Description of Course 3</p>
-            </li>
-             <li class="bg-white p-4 shadow-md rounded-md">
-                <h3 class="text-xl font-semibold">Course 4</h3>
-                <p class="text-gray-700">Description of Course 4</p>
-            </li>
-             <li class="bg-white p-4 shadow-md rounded-md">
-                <h3 class="text-xl font-semibold">Course 5</h3>
-                <p class="text-gray-700">Description of Course 5</p>
-            </li>
-               <li class="bg-white p-4 shadow-md rounded-md">
-                <h3 class="text-xl font-semibold">Course 6</h3>
-                <p class="text-gray-700">Description of Course 6</p>
-            </li>
+
+            <a href="MathStudyDetail.html">
+            <div class="bg-white p-4 rounded shadow">
+               <h2 class="text-xl font-bold mb-2">คณิตศาสตร์</h2>
+                <p class="text-gray-700">คณิตศาสตร์ (อังกฤษ: Mathematics) เป็นศาสตร์ที่ครอบคลุมการค้นคว้าเกี่ยวกับ ปริมาณ โครงสร้าง การเปลี่ยนแปลง และปริภูมิ คณิตศาสตร์ไม่มีคำนิยามที่เป็นที่ยอมรับกันทั่วไป กล่าวคร่าวๆ ได้ว่าคณิตศาสตร์นั้นสนใจ "รูปร่างและจำนวน" และเนื่องจากคณิตศาสตร์มิได้สร้างความรู้ผ่านกระบวนการทดลอง </p>
+            </div>
+        </a>
+            <!-- Repeat similar blocks for other subjects -->
+            <div class="bg-white p-4 rounded shadow">
+                <h2 class="text-xl font-bold mb-2">ภาษาไทย</h2>
+                <p class="text-gray-700">ภาษาไทยเป็นภาษาที่มีระดับเสียงของคำแน่นอนหรือวรรณยุกต์เช่นเดียวกับภาษาจีน และออกเสียงแยกคำต่อคำ
+
+                    ภาษาไทยปรากฏครั้งแรกในพุทธศักราช 1826 โดยพ่อขุนรามคำแหง</p>
+            </div>
+            <div class="bg-white p-4 rounded shadow">
+                <h2 class="text-xl font-bold mb-2"><a href="StudyList.html">รายชื่อวิชาอื่นๆ</a></h2>
+                <p class="text-gray-700">Subject details go here. This is a brief description of the subject.</p>
+            </div></div>
         </ul>
     </section>
 
-    <!-- Feedback Section -->
     <section class="container mx-auto mt-8 mb-8">
-        <h2 class="text-2xl font-bold mb-4">Feedback</h2>
+        <h2 class="text-2xl font-bold mb-4 text-white">Feedback</h2>
         <div class="bg-white p-4 shadow-md rounded-md mb-4">
             <p class="text-gray-700 font-semibold">Name: J**e</p>
-            <p class="text-gray-700">"I learned so much from these courses."</p>
+            <p class="text-gray-700">"ฉันได้เรียนรู้มากมายจากหลักสูตรเหล่านี้"</p>
         </div>
           <div class="bg-white p-4 shadow-md rounded-md mb-4">
             <p class="text-gray-700 font-semibold">Name: B*n</p>
-            <p class="text-gray-700">"This platform is amazing!" - Student A</p>
+            <p class="text-gray-700">"แพลตฟอร์มนี้ยอดเยี่ยมมาก!"</p>
         </div>
           <div class="bg-white p-4 shadow-md rounded-md mb-4">
             <p class="text-gray-700 font-semibold">Name: B**k</p>
-            <p class="text-gray-700">"I learned so much from these courses." - Student B</p>
+            <p class="text-gray-700">"ฉันได้เรียนรู้มากมายจากหลักสูตรเหล่านี้"</p>
 
         </div>
       
